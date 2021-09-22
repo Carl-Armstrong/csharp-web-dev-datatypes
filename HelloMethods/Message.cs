@@ -12,6 +12,10 @@
             {
                 return "Bonjour le monde";
             }
+            else if (lang.Equals("ru"))
+            {
+                return "Privyet Mir";
+            }
             else
             {
                 return "Hello World";
