@@ -1,23 +1,23 @@
-﻿namespace HelloMethods
+﻿namespace HelloGeneric
 {
     public class Message
     {
-        public static string GetMessage(string lang)
+        public static string GetMessage(string lang, string name)
         {
             if (lang.Equals("sp"))
             {
-                return "Hola Mundo";
+                return "Hola " + name;
             }
             else if (lang.Equals("fr"))
             {
-                return "Bonjour le monde";
+                return "Bonjour " + name;
             }
             else if (lang.Equals("ru"))
             {
-                return "Privyet Mir";
+                return "Привет " + name;
             }
             else if (lang.Equals("ua"))
-                return "Priveet Sveet";
+                return "Привіт " + name;
             else
             {
                 return "Hello World";

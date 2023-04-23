@@ -6,7 +6,7 @@ namespace HelloMethods
     {
         public static void Main(string[] args)
         {
-            string message = Message.GetMessage("ru");
+            string message = Message.GetMessage("ua");
             Console.WriteLine(message);
             Console.ReadLine();
         }
